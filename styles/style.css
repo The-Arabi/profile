@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+body > div {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+    flex: 1.2;
+}
+
+.signup {
+    flex: 0.75;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 0 1 auto;
+    height: 40px;
+}
